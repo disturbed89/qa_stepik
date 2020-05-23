@@ -1,2 +1,3 @@
 # qa_stepik
-stepik - auto tests course
+Репозиторий для хранения домашних работ по курсу Автоматизация тестирования с помощью Selenium и Python
+https://stepik.org/course/575
