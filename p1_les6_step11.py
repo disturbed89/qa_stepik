@@ -10,11 +10,10 @@ try:
 
     input1 = browser.find_element_by_css_selector(".first_block .first")
     input1.send_keys("Ivan")
-    try:
-        input2 = browser.find_element_by_css_selector(".first_block .second")
-        input2.send_keys("Petrov")
-    except:
-        time.sleep(0)
+
+    input2 = browser.find_element_by_css_selector(".first_block .second")
+    input2.send_keys("Petrov")
+
     input3 = browser.find_element_by_css_selector(".first_block .third")
     input3.send_keys("Ivan@gmail.com")
     time.sleep(1)
@@ -39,5 +38,5 @@ finally:
     # ожидание чтобы визуально оценить результаты прохождения скрипта
     time.sleep(10)
     # закрываем браузер после всех манипуляций
-    browser.quit()
+    #browser.quit()
     
